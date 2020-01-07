@@ -1,0 +1,651 @@
+﻿#gNavi {
+	margin: 0 auto;
+	width: 806px;
+}
+
+#gNavi li {
+	float: left;	
+}
+
+#gNavi li  img,
+#gNavi li a {
+	display: block;
+}
+
+#gNavi li.gNavi01 a {
+	background: url(../../img/common/g_navi01_over.jpg) no-repeat;
+}
+
+#gNavi li.gNavi02 a {
+	background: url(../../img/common/g_navi02_over.jpg) no-repeat;
+}
+
+#gNavi li.gNavi03 a {
+	background: url(../../img/common/g_navi03_over.jpg) no-repeat;
+}
+
+#gNavi li.gNavi04 a {
+	background: url(../../img/common/g_navi04_over.jpg) no-repeat;
+}
+
+#gNavi li.gNavi05 a {
+	background: url(../../img/common/g_navi05_over.jpg) no-repeat;
+}
+
+#gNavi li a:hover img {
+	filter: alpha(opacity=0);
+	opacity: 0;	
+　　	-moz-opacity:0; 
+}
+
+当前?： 
+#gNavi .gNavi02 a img {
+   visibility: hidden;
+}
+
+
+
+pageNavi?式：
+
+
+ #conts.index .pageList {
+text-align: center;
+}
+
+#conts.index .pageList a,
+#conts.index .pageList .current {
+margin-right: 5px;
+color: #3D638A;
+font-size: 1.2em;
+}
+
+#conts.index .pageList .page-numbers {
+padding: 3px 0 2px;
+width: 23px;
+display: inline-block;
+border: 1px solid #CCC;
+}
+
+#conts.index .pageList .page-numbers:hover,
+#conts.index .pageList .current {
+padding: 3px 0 2px;
+width: 23px;
+color: #333;
+text-decoration: none;
+background-color: #EEE;
+border: 1px solid #CCC;
+}
+
+#conts.index .pageList .prev {
+margin: 3px 7px 0 0;
+padding: 0 !important;
+width: auto;
+border: none;
+}
+
+#conts.index .pageList .next {
+margin: 3px 0 0 0;
+padding: 0 !important;
+width: auto;
+border: none;
+}
+
+#conts.index .pageList .prev:hover,
+#conts.index .pageList .next:hover {
+width: auto;
+border: none;
+background: none;
+}
+
+
+
+1 white-space: pre-wrap;
+    　　　　　word-wrap: break-word;?制?行代?。
+              表格里面的?行用word-break : break-all;
+2 http://www.htmllint.net/html-lint/htmllint.html 仙台?面册分网站
+
+3 onmouseover="this.src='images/bt_error_ov.gif'" onmouseout="this.src='images/bt_error.gif'"
+4 苹果机兼容代?：@media screen and (-webkit-min-device-pixel-ratio:0){ #conts p { letter-spacing: -1px;} } 
+5 footer上的?条：｜；
+6 最小高度兼容： * html #main .rightContent .section {
+min-height:425px;
+_height:expression((document.documentElement.clientHeight||document.body.clientHeight)>425?"425px":"");
+} 
+
+?一?最小高度兼容： * html #conts .contactBox {
+　　　　height:auto !important; min-height:725px; height:725px;
+	}
+
+7 php 包?的代?：  <?php include($_SERVER['DOCUMENT_ROOT']."/include/header.php"); ?>
+8 a:hover img.imgHover {
+	filter: alpha(opacity=70);
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+}
+
+9 波浪?：～ 
+10 加了clear：both，或者clearfix之后 往上fu zai ie 底下 就不管用了  。所有?可能得不要用fu。
+11 加密网址：www.iamwawa.cn/emailjiami.asp
+12 固定某个?西：position： fixed；
+13 特殊符号 平方  m&sup2;  &#9312; 圈1 
+
+
+14 <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />?个代?影? css3的兼容?? 比如?角， ?影等。
+
+
+15 position: relative;
+   behavior: url(js/pie.htc);
+
+16 	border-collapse: collapse;
+	border-spacing: 0;
+
+17 __retry_input__
+
+18 ipone下 把不是??的数字??成??的解决方法 <meta name="format-detection" content="telephone=no">
+
+
+
+19 <?php echo'<?xml version="1.0" encoding="utf-8"?>'; ?>
+
+
+20 @media all and (min-width: 0) and (max-width: 640px)  {}
+	@media all and (min-width: 641px) and (max-width: 768px)  
+
+
+21 http://htmllint.org/htmllintl.html仙台?分网址
+
+http://www.htmllint.net/html-lint/htmllint.html#
+
+
+22  heightLineParent
+
+23 #main .contactBox .comTable td input[type="text"] { }
+
+
+
+
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/common/header_bg.jpg',sizingMethod='scale');
+
+placeholder的?色?定:
+
+#main .comTable td input[type="text"]::-webkit-input-placeholder {
+	color: #b2c0c3;
+}
+
+#main .comTable td input[type="text"]:-moz-placeholder {
+	color: #b2c0c3;
+}
+
+#main .comTable td input[type="text"]::-moz-placeholder {
+	color: #b2c0c3;
+}
+
+http://www.iconfont.cn/ 
+
+		-webkit-appearance: none;
+ qing border-radius sarfai xia de
+
+
+?着的? http://technique.eweb-design.com/0402_tt.html
+
+$(window).load(function(){
+	var localLink = window.location+'';
+	if(localLink.indexOf("#") != -1){
+		localLink = localLink.slice(localLink.indexOf("#")+1);
+		$('html,body').animate({scrollTop: $('#'+localLink).offset().top}, 500);
+	}
+
+jia biao dan de shi hou mao dian
+
+http://www.cnblogs.com/xinjie-just/p/5909037.html
+
+file can kao
+
+
+
+
+
+a[href^="tel:"] {
+	cursor: default;
+	pointer-events: none;
+}
+
+pc
+
+	a[href^="tel:"] {
+		cursor: pointer;
+		pointer-events: auto;
+	}
+
+sp
+
+
+ya tu https://tinypng.com/
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+
+
+
+plachodler de jian rong
+
+
+#main .grayBox td input::-webkit-input-placeholder { 
+    color: #999; 
+} 
+
+#main .grayBox td input:-moz-placeholder { 
+    color: #999; 
+} 
+
+#main .grayBox td input::-moz-placeholder { 
+    color: #999; 
+}
+
+#main .grayBox td input:-ms-input-placeholder { 
+    color: #999; 
+}
+
+
+1 hover tu pian bian da
+
+2 hover man man bian hua
+
+
+
+
+
+
+<link rel="icon" type="image/gif" href="../img/common/favicon.ico">
+<link rel="apple-touch-icon" href="../img/common/webclip.png">
+<link rel="shortcut icon" type="image/x-icon" href="../img/common/webclip.png">
+
+
+
+@media all and (-ms-high-contrast:none){
+	.index #main .sec02 .imgUl li a {
+		padding: 10px 0 6px;
+	}
+}  
+
+
+
+
+$(function(){
+	$('#business .linkList li .bgText').matchHeight();	
+});
+</script>
+
+#main .sec02 .innerBox .bg01 {
+	width: 250px;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	left: -40px;
+	background-image:-webkit-linear-gradient(  
+		to right,   
+		rgba(152,43,0,1) 0%,
+		rgba(152,43,0,0.99) 35%, 
+		rgba(152,43,0,0.7) 60%,  
+		rgba(0,0,0,0.1) 88%,   
+		rgba(0,0,0,0) 100%); 
+  	background-image: linear-gradient(  
+		to right,   
+		rgba(152,43,0,1) 0%, 
+		rgba(152,43,0,0.99) 35%, 
+		rgba(152,43,0,0.7) 60%,   
+		rgba(0,0,0,0.1) 88%,   
+		rgba(0,0,0,0) 100%);
+}
+
+#main .sec02 .innerBox .bg02 {
+	width: 900px;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	right: 0;
+	background-image:-webkit-linear-gradient(  
+		to left,   
+		rgba(152,43,0,1) 0%,
+		rgba(152,43,0,1) 50%, 
+		rgba(152,43,0,0.9) 57%,  
+		rgba(0,0,0,0.1) 74%,   
+		rgba(0,0,0,0) 100%); 
+  	background-image: linear-gradient(  
+		to left,   
+		rgba(152,43,0,1) 0%, 
+		rgba(152,43,0,1) 50%, 
+		rgba(152,43,0,0.8) 57%,   
+		rgba(0,0,0,0.1) 74%,   
+		rgba(0,0,0,0) 100%);
+}
+
+
+<link rel="icon" type="image/gif" href="img/common/favicon.ico">
+<link rel="apple-touch-icon" href="img/common/apple-touch-icon.png">
+<link rel="shortcut icon" type="image/x-icon" href="img/common/favicon.ico">
+
+
+
+
+
+	if(navigator.userAgent.indexOf('iPad') > 0 || (navigator.userAgent.indexOf('Android') > 0 && navigator.userAgent.indexOf('Mobile') ==-1)) {
+			$("html").addClass("ipad");
+	}
+
+
+
+
+
+https://www.zhuan-huan.com/font-converter.php
+zhuanhuanziti
+
+
+font-family: "Noto Sans Japanese";
+
+<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+
+@font-face {
+    font-family: 'Grandam';
+    src: url('fonts/Grandam.eot');
+    src: url('fonts/Grandam.eot?#iefix') format('embedded-opentype'),
+url('fonts/Grandam.woff') format('woff'),
+url('fonts/Grandam.ttf') format('truetype');
+}
+
+
+https://fonts.google.com/?query=JosefinSans
+
+
+文字多行以后，点点点省略CSS代码容器 
+
+width:200px; white-space:nowrap; text-overflow:ellipsis; overflow: hidden; 
+
+
+竖着的文字写法
+-webkit-writing-mode : tb-rl;
+-webkit-writing-mode: vertical-rl;
+writing-mode: tb-rl;
+writing-mode: vertical-rl;
+direction: ltr; 
+
+
+
+清竖着的文字
+
+给文字和英文包span.num { 
+-webkit-writing-mode: horizontal-tb;
+-moz-writing-mode: horizontal-tb;
+-ms-writing-mode: lr-tb;
+-o-writing-mode: horizontal-tb;
+writing-mode: horizontal-tb; 
+}
+
+
+
+
+
+
+	-webkit-writing-mode: rl-tb;
+	writing-mode: rl-tb;
+	-moz-writing-mode: rl-tb;
+	-ms-writing-mode: rl-tb;
+	-o-writing-mode: rl-tb;
+
+
+xinde
+
+http://fontawesome.io
+
+
+利用:before / :after要素，用border制作三角形的方法是一般的。
+用?个方法??
+https://bagelee.com/design/css/css-triangle/
+
+
+#main tr:nth-child(even) td {
+	background-color: #EAEFE9;
+	border-bottom: 1px solid #EAEFE9;
+}
+	
+#main tr:nth-child(odd) td {
+	background-color: #FFF;
+	border-bottom: 1px solid #FFF;
+}
+
+select::-ms-expand { display: none; }
+
+
+xie bei jing
+.comBg {
+	height: 100%;
+	left: -100%;
+	position: absolute;
+	top: 0;
+	transform: rotate(3.8deg);
+	transform-origin: center top 0;
+	width: 330%;
+	z-index: 10;
+	background-color: #F6F6F6;
+	-moz-transform: rotate(3.8deg);
+	-webkit-transform: rotate(3.8deg);
+	-o-transform: rotate(3.8deg);
+}
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+
+
+1. 强制不换行
+
+div{
+    white-space:nowrap;
+}
+
+ 
+2. 自动换行
+
+div{
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+ 
+3. 英文强制断行
+
+ div{
+    word-break:break-all;
+ }
+
+
+http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html
+
+
+
+http://www.luft.co.jp/cgi/coding.php
+https://generating-password.com/mailep/ 
+
+邮箱的加密
+
+
+#main .sec04:after {
+	width: 0;
+	height: 0;
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	border-style: solid;
+	border-width: 190px 0 0 100vw;
+	border-color: #102135 transparent transparent  transparent;
+	box-sizing: border-box;
+	z-index: 2;
+}
+
+#main .sec04:before {
+	width: 0;
+	height: 0;
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	display: block;
+	border-style: solid;
+	border-width: 0 0 190px 100vw;
+	border-color: transparent transparent #fff transparent;
+	box-sizing: border-box;
+	z-index: 2;
+}
+
+斜角的写法
+
+
+transform: translate(-50%,-50%);
+-moz-transform: translate(-50%,-50%);
+-ms-transform: translate(-50%,-50%);
+-o-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+
+
+transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+
+
+
+padding: 3px 0 0px\9\0; /* ie 9*/
+http://www.css88.com/archives/3746
+
+
+:placeholder-shown {
+color: #ccc;
+font-weight: normal;
+}
+
+:-webkit-input-placeholder {
+color: #ccc;
+font-weight: normal;
+}
+
+:-moz-placeholder {
+color: #ccc;
+font-weight: normal;
+opacity: 1;
+}
+
+:-ms-input-placeholder {
+color: #ccc;
+font-weight: normal;
+}
+
+padding: 3px 0 0px\9\0; /* ie 9*/	
+
+<meta name="viewport" content="width=640">
+
+
+#main .sec01 .listUl li .info {
+	overflow: hidden;
+	width: 180px;
+	display: block;
+}
+
+#main .sec01 .listUl li .photo img {
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-O-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+#main .sec01 .listUl li a:hover img {
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-O-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+
+.popupBox select::-ms-expand { display: none; }
+
+
+<embed src="img/common/flower07.svg" type="image/svg+xml">
+
+		$('#main .sec05 li').matchHeight({
+			byRow: false,
+		});
+
+
+/* shawon */
+
+    background: -moz-linear-gradient(top,#cdb77d 0%,#b99f64);
+    background: -webkit-gradient(linear, left top, left bottom, from(#cdb77d),to(#b99f64));
+    background: -webkit-linear-gradient(bottom, #cdb77d, #b99f64);
+    background: -moz-linear-gradient(bottom, #cdb77d, #b99f64);
+    background: -ms-linear-gradient(bottom, #cdb77d, #b99f64); 
+    background: -o-linear-gradient(bottom, #cdb77d, #b99f64);
+    background: linear-gradient(to bottom, #cdb77d, #b99f64);
+
+
+/*------------------------------------------------------------
+	flex
+------------------------------------------------------------*/
+.flex {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.flex.left {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder { color: #666; }
+input:-moz-placeholder,
+textarea:-moz-placeholder { color: #666; }
+input::-moz-placeholder,
+textarea::-moz-placeholder { color: #666; }
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder { color: #666; }
+
+自动入力出地址
+<input type="button" name="btn" value="自動入力" onclick="AjaxZip3.zip2addr('zip','','address01','address02');">
+<input type="text" name="parm[zip]" value="<?php echo @$parm['zip']; ?>" onkeyup="AjaxZip3.zip2addr('parm[zip]','','parm[address]','parm[address]');">
+【点击出地址】
+注意不管有几个地址框name值必须放两个
+
+<input type="text" name="parm[zip2]" value="<?php echo @$parm['zip2']; ?>" onkeyup="AjaxZip3.zip2addr('parm[zip1]','parm[zip2]','parm[address1]','parm[address2]');">
+
+
+2端对齐 兼容#main .sec05 .tabBox th { width: 17.5%; color: #ff9f00; position: relative; text-align: justify; text-align-last: justify; } #main .sec05 .tabBox th:after { display: inline-block; width: 100%; height: 0; overflow: hidden; content: ""; 
+}
+
+sp下手指放大缩小：
+width=device-width, initial-scale=1.0；
+
+<script type="text/javascript">
+today=new Date();
+y=today.getFullYear();
+document.write("",y,"");
+</script>
+
+
+

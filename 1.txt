@@ -1,0 +1,280 @@
+﻿1、
+ID：101264135
+PW：2VZ3enCTx6xq
+
+2、
+ID：618239216
+PW：62841781B
+
+3、
+ID：618237474
+PW：62841781B
+
+
+?程1： 826 536 482 
+?程3： 172 778 136
+
+AnyDesk:
+?程1
+826536482
+86coding
+?程2:111086424
+?程3： 172 778 136
+
+
+
+
+\\192.168.3.127
+
+
+密码 E$n5h4wN
+
+
+1.访问地址:http://81bridge.sub.jp/20170518bk/completion/ 2.测试表单的服务器信息：
+
+ftp.81bridge.sub.jp
+ID:sub.jp-81bridge
+PWD:3b83U1v8QXM8fSkm
+
+http://81bridge.sub.jp/
+
+
+
+pc sp都需要加宽高（实际宽高），图片宽高都切偶数，不能有gif格式的图片。jpg 80%画质
+编码需要加注释<!-- /#header -->  <!-- /#main -->
+表单外面加label for，加<fieldset>标签
+h标签要加class写样式，外面要加section
+邮箱加密
+
+
+
+
+-webkit-overflow-scrolling: touch
+
+.popupBox select::-ms-expand { display: none; }
+
+height: calc(100% - 83px);
+
+
+<meta property="og:title" content=" " />
+<meta property="og:type" content=" " />
+<meta property="og:url" content=" URL" />
+<meta property="og:image" content=" URL" />
+<meta property="og:site_name" content=" " />
+<meta property="og:description" content=" " />
+
+
+transform:rotate(-13deg);
+-ms-transform:rotate(-13deg);
+-moz-transform:rotate(-13deg);
+-webkit-transform:rotate(-13deg);
+-o-transform:rotate(-13deg);
+
+
+	.p-contents08 .c-back-top a {
+		display: block;
+		-webkit-transform: translateY(0);
+		-moz-transform: translateY(0);
+		-ms-transform: translateY(0);
+		transform: translateY(0);
+		-webkit-transition: transform .3s linear;
+		-moz-transition: transform .3s linear;
+		-ms-transition: transform .3s linear;
+		transition: transform .3s linear;
+	}
+	
+	.p-contents08 .c-back-top a:hover {
+		-webkit-transform: translateY(-5px);
+		-moz-transform: translateY(-5px);
+		-ms-transform: translateY(-5px);
+		transform: translateY(-5px);
+		-webkit-transition: transform .3s linear;
+		-moz-transition: transform .3s linear;
+		-ms-transition: transform .3s linear;
+		transition: transform .3s linear;
+	}
+
+2. 兼容的书写顺序：
+-webkit-
+-moz-
+-ms-
+-O-
+默认
+
+
+    transition: .3s;
+	-webkit-transition: .3s;
+
+
+
+
+
+
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+
+
+
+	#main .sec02 .map { 
+	 	position: relative;
+		 padding-bottom: 54%; 
+		 height: 0; 
+		 overflow: hidden; 
+	}
+	 
+	#main .sec02 .map iframe { 
+		 position: absolute; 
+		 top: 0; 
+		 left: 0; 
+		 width: 100%; 
+		 height: 100%; 
+	 }
+
+<script type="text/javascript">
+$(function(){
+$('#about .pointList li .ttl').matchHeight();
+$('#about .textListUl li').matchHeight();
+$('#product .phoList li').matchHeight();
+});
+</script>
+
+        writing-mode: horizontal-tb;
+	writing-mode: vertical-rl;
+	writing-mode: tb-rl;         //兼容ie
+	-webkit-writing-mode: horizontal-tb;     //兼容touch android
+	-webkit-writing-mode: vertical-rl;       //兼容touch android
+	-webkit-writing-mode: tb-rl;             //兼容touch android
+
+清除 
+
+	writing-mode: horizontal-tb; 
+	-webkit-writing-mode: horizontal-tb; 
+	-moz-writing-mode: horizontal-tb; 
+
+width: calc(100% - 40px);
+
+
+rongqi
+.box {
+  flex-direction: row | row-reverse | column | column-reverse;
+}
+
+.box{
+  flex-wrap: nowrap | wrap | wrap-reverse;
+}
+
+.box {
+  justify-content: flex-start | flex-end | center | space-between | space-around;
+}
+
+.box {
+  flex-flow: <flex-direction> <flex-wrap>;
+}
+
+.box {
+  align-items: flex-start | flex-end | center | baseline | stretch;
+}
+
+.box {
+  align-content: flex-start | flex-end | center | space-between | space-around | stretch;
+}
+
+xiangmu
+.item {
+  order: <integer>;
+}
+.item {
+  flex-grow: <number>; /* default 0 */
+}
+.item {
+  flex-shrink: <number>; /* default 1 */
+}
+
+
+ID：81bridge
+PW：O6r6WwBL
+
+
+#main .grayBox td input::-webkit-input-placeholder { 
+    color: #999; 
+} 
+
+#main .grayBox td input:-moz-placeholder { 
+    color: #999; 
+} 
+
+#main .grayBox td input::-moz-placeholder { 
+    color: #999; 
+}
+
+#main .grayBox td input:-ms-input-placeholder { 
+    color: #999; 
+}
+
+http://www.luft.co.jp/cgi/coding.php
+
+
+
+transform: translateY(-50%);
+-moz-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+-o-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+
+右下 +
+左上 -
+
+
+tel→input_main_tp
+email→input_main_em
+email_confirm→input_main_emc
+
+
+.cataBox .comUl li .ttl:after {
+	margin-top: -6px;
+	width: 9px;
+	height: 9px;
+	position: absolute;
+	right: 13px;
+	top: 50%;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;  
+	-webkit-transform: rotate(-45deg); 
+	transform: rotate(-45deg); 
+
+	content: "";
+}
+
+
+5410047
+
+
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+
+
+.flex {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: space-between;
+    -webkit-justify-content: space-between;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.flex.left {
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+
+
+94，870，000 
+150，000，000
+63%
+
