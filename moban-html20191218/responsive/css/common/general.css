@@ -1,0 +1,25 @@
+@charset "utf-8";
+/*------------------------------------------------------------
+	汎用スタイル
+------------------------------------------------------------*/
+	* html .clearfix {
+		zoom: 1;
+	}
+
+	*+html .clearfix {
+		zoom: 1;
+	}
+.clearfix:after {
+	height: 0;
+	visibility: hidden;
+	content: ".";
+	display: block;
+	clear: both;
+}
+/*------------------------------------------------------------
+	common
+------------------------------------------------------------*/
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+@media all and (max-width: 767px) {
+}
